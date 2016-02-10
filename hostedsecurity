@@ -1,0 +1,60 @@
+function hostedsecurity(){
+document.getElementsByName("MULTETHER")[0].click();	
+}
+
+
+hostedsecurity();
+setTimeout(TannersShortCut, 4000)
+
+
+
+function TannersShortCut(){
+document.getElementsByName("CCNA")[0].value = "CBD";
+document.getElementsByName("ACT")[0].value = "N";
+document.getElementsByName("Cust")[0].value = "CBAD";
+document.getElementsByName("RTR")[0].value = "S";
+document.getElementsByName("EVCI")[0].value = "A";
+document.getElementsByName("BAN")[0].value = "513P230879";
+document.getElementsByName("VER")[0].value = "01";
+document.getElementsByName("REQTYP")[0].value = "SD";
+document.getElementsByName("QTY")[0].value = "1";
+document.getElementsByName("Bob_Rem1")[0].value = "Establish EVC VLAN: SN= CUSTOMER NAME, for hosted security";
+document.getElementsByName("ACNA")[0].value = "CBD";
+document.getElementsByName("VTA")[0].value = "36";
+document.getElementsByName("FUSF")[0].value = "E";
+document.getElementsByName("INIT")[0].value = "Tanner Blair";
+document.getElementsByName("InitTel")[0].value = "513-397-4791";
+document.getElementsByName("InitEmail")[0].value = "Tanner.Blair@cbts.net";
+document.getElementsByName("DSGCON")[0].value = "Tanner Blair";
+document.getElementsByName("DSGTel")[0].value = "513-397-4791";
+document.getElementsByName("DSGEmail")[0].value = "Tanner.Blair@cbts.net";
+document.getElementsByName("IMPCON")[0].value = "Tanner Blair";
+document.getElementsByName("IMPCON_Tel")[0].value = "513-397-4791";
+document.getElementsByName("JKCOD1")[0].value = "E";
+document.getElementsByName("UREF")[0].value = "01";
+document.getElementsByName("EVCNUM")[0].value = "0001";
+document.getElementsByName("NUT")[0].value = "02";
+document.getElementsByName("NC_E")[0].value = "VLP-";
+document.getElementsByName("NCI_E")[0].value = "02VLN.V";
+document.getElementsByName("UACT")[0].value = "N";
+document.getElementsByName("EVCSP")[0].value = "CNCNOHWS33W";
+document.getElementsByName("RUID")[0].value = "KGGS.539666.CB";
+document.getElementsByName("LREF")[0].value = "1";
+document.getElementsByName("LOSACT")[0].value = "N";
+document.getElementsByName("LOS")[0].value = "Best Effort";
+document.getElementsByName("BWD")[0].value = "Change";
+document.getElementsByName("UREF1")[0].value = "01";
+document.getElementsByName("EVCNUM1")[0].value = "0001";
+document.getElementsByName("NUT1")[0].value = "02";
+document.getElementsByName("NC_E1")[0].value = "VLP-";
+document.getElementsByName("NCI_E1")[0].value = "02VLN.V";
+document.getElementsByName("UACT1")[0].value = "N";
+document.getElementsByName("EVCSP_1")[0].value = "CNCNOHWS33W";
+document.getElementsByName("RUID1")[0].value = "KGGS.539683.CB";
+document.getElementsByName("LREF1")[0].value = "1";
+document.getElementsByName("LOSACT1")[0].value = "N";
+document.getElementsByName("LOS1")[0].value = "Best Effort";
+document.getElementsByName("BWD1")[0].value = "Change";
+}
+
+
